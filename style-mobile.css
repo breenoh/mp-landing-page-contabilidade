@@ -1,17 +1,17 @@
 @media (max-width: 430px) {
 
+
     .menu-header {
         height: 70px;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
 
     .perfil-empresa {
         flex-direction: column;
-    }
-
-    .perfil-empresa img {
-        width: 390px;
-        height: 80px;
     }
 
     .nossos-servicos__box-flex {
@@ -20,7 +20,7 @@
     }
 
     .nossos-servicos__right img {
-        width: 419px;
+        width: 360px;
     }
 
 
@@ -98,7 +98,7 @@
     }
 
     .perfil-empresa__left img {
-        width: 410px;
+        width: 360px;
         height: 80px;
     }
 
@@ -118,6 +118,7 @@
         width: 410px;
         margin-bottom: 40px;
         text-align: center;
+        max-width: 410px;
     }
 
     .nossos-servicos__left {
@@ -138,12 +139,12 @@
     }
 
     .nossos-servicos__box-flex {
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
 
     .nossos-servicos__right img {
         height: 80px;
-        width: 390px;
+        width: 360px;
     }
 
     .nossos-clientes h2 {
@@ -151,15 +152,26 @@
     }
 
     .nossos-clientes {
-        align-items: start;
         padding: 25px;
-
     }
+
+
 
     .nossos-clientes p {
         text-align: start;
         font-size: 15px;
         padding: 0px;
+        padding-bottom: 15px;
+        max-width: 360px;
+    }
+
+    .imagens {
+
+        width: 360px;
+    }
+
+    .imagens img {
+        width: 360px;
     }
 
     .imagens .img1 p {
@@ -167,11 +179,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .frase-impacto h4 {
         font-size: 20px;
+        margin: 50px 0px 0px 0px;
+        width: 410px;
     }
 
     .frase-impacto p {
