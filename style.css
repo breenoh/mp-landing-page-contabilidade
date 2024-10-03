@@ -129,14 +129,6 @@ span {
     height: 508px;
 }
 
-
-.perfil-empresa__right {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 68px;
-}
-
 h2 {
     color: #FFF;
     font-family: "Kulim Park";
@@ -146,6 +138,14 @@ h2 {
     line-height: normal;
     padding-bottom: 40px;
 }
+
+.perfil-empresa__right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 68px;
+}
+
 
 
 .perfil-empresa__right p {
