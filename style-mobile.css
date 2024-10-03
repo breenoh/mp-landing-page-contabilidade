@@ -69,7 +69,11 @@
 
     .menu-header ul li a {
         font-size: 10px;
+    }
 
+    .menu-header ul li a:hover {
+        font-size: 11px;
+        text-shadow: black 0.1em 0.1em 0.2em
     }
 
     .apresent {
