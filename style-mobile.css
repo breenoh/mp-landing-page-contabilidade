@@ -70,7 +70,7 @@
 
     .apresent {
         align-items: normal;
-        padding: 15px;
+        padding: 25px;
         height: 410px;
     }
 
@@ -92,6 +92,7 @@
     .perfil-empresa__left img {
         width: 360px;
         height: 80px;
+ 
     }
 
     h2 {
@@ -103,6 +104,7 @@
         margin-left: 0px;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
     }
 
     .perfil-empresa__right p {
