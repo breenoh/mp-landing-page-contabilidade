@@ -1,0 +1,218 @@
+@media (max-width: 430px) {
+    body {
+        /* background-color: black; */
+    }
+
+    .menu-header {
+        height: 70px;
+    }
+
+
+    .perfil-empresa {
+        flex-direction: column;
+    }
+
+    .perfil-empresa img {
+        height: 80px;
+    }
+
+    .nossos-servicos__box-flex {
+        flex-direction: column;
+
+    }
+
+    .nossos-servicos__right img {
+        width: 419px;
+    }
+
+
+
+
+
+    .imagens {
+        flex-direction: column;
+    }
+
+    .frase-impacto h4 {
+        width: 407px;
+    }
+
+    /* agora sim */
+
+    .box-background {
+        background-image: url(src/assets/bg-mobile.png);
+        background-position: center;
+        background-size: cover;
+        height: 430px;
+    }
+
+    .btn-saiba-mais {
+        width: 137px;
+        height: 25px;
+        padding: 0px 0px;
+        font-size: 10px;
+        margin: auto;
+
+    }
+
+    .menu-header img {
+        height: 60px;
+    }
+
+    .menu-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 70px;
+    }
+
+    .menu-header ul li a {
+        font-size: 10px;
+
+    }
+
+    .apresent {
+        align-items: normal;
+        padding: 15px;
+        height: 410px;
+    }
+
+    .apresent h1 {
+        font-size: 50px;
+        text-align: start;
+    }
+
+    .apresent p {
+        font-size: 22px;
+        text-align: left;
+
+    }
+
+    .perfil-empresa {
+        padding: 100px 15px;
+    }
+
+    .perfil-empresa__left img {
+        width: 410px;
+        height: 80px;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .perfil-empresa__right {
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .perfil-empresa__right p {
+        font-size: 15px;
+        width: 410px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .nossos-servicos__left {
+        padding: 20px;
+    }
+
+    .nossos-servicos__left h3 {
+        font-size: 15px;
+    }
+
+    .nossos-servicos__left p {
+        font-size: 10px;
+        text-indent: 45px;
+    }
+
+    .nossos-servicos__left span {
+        font-size: 25px;
+    }
+
+    .nossos-servicos__box-flex {
+        flex-direction:column-reverse;
+    }
+
+    .nossos-servicos__right img {
+        height: 80px;
+        width: 390px;
+    }
+
+    .nossos-clientes h2 {
+        padding-top: 20px;
+    }
+
+    .nossos-clientes {
+        align-items: start;
+        padding: 25px;
+
+    }
+
+    .nossos-clientes p {
+        text-align: start;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .imagens .img1 p {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .frase-impacto h4 {
+        font-size: 20px;
+    }
+
+    .frase-impacto p {
+        margin-bottom: 50px;
+    }
+
+    .trabalhar-juntos {
+        padding: 10px;
+    }
+
+    .trabalhar-juntos__flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .trabalhar-juntos__right h2 {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        text-align: start;
+    }
+
+    .trabalhar-juntos__right p {
+        font-size: 10px;
+    }
+
+
+    .trabalhar-juntos__left img {
+        height: 136px;
+        width: 210px;
+        margin: 10px;
+    }
+
+    .trabalhar-juntos__right {
+        display: flex;
+        width: auto;
+        height: 210px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}

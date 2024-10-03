@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo-preto {
+    color: #000;
+}
+
+.btn-saiba-mais {
+    display: flex;
+    width: 284px;
+    height: 74px;
+    padding: 15px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: -15px;
+    border-radius: 2px;
+    background-color: #DF994E;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-saiba-mais:hover {
+    background-color: white;
+    color: #DF994E;
+    border: 2px solid black;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* INICIO */
+
+.box-background {
+    background-image: url(src/assets/background-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1034px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 81px;
+    padding-right: 144px;
+    height: 138px;
+}
+
+.menu-header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+.menu-header ul li a {
+    text-decoration: none;
+    width: 441px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Kulim Park";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all .1s;
+}
+
+.menu-header ul li a:hover {
+    font-size: 21px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.apresent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+}
+
+.apresent h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Kulim Park";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.apresent p {
+    color: #DF994E;
+    text-align: center;
+    font-family: "Kulim Park";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* perfil-empresa */
+
+.perfil-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 185px 20px;
+}
+
+.perfil-empresa img {
+    height: 508px;
+}
+
+
+.perfil-empresa__right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 68px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: "Kulim Park";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+
+.perfil-empresa__right p {
+    color: #666;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 569px;
+    margin-bottom: 40px;
+}
+
+.btn-saiba-mais {
+    display: flex;
+    width: 284px;
+    height: 74px;
+    padding: 15px 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: #DF994E;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+/* nossos-servicos */
+
+.nossos-servicos {
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 62px;
+}
+
+.nossos-servicos p {
+    color: #666;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.nossos-servicos__right {}
+
+.nossos-servicos__right img {
+    height: 395px;
+}
+
+.nossos-servicos__box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossos-servicos__left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 63px;
+}
+
+.nossos-servicos__left .servico-1,
+.servico-2,
+.servico-3,
+.servico-4 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+}
+
+.nossos-servicos__left span {
+    color: #DF994E;
+    font-family: "Kulim Park";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 10px;
+}
+
+.nossos-servicos__left h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nossos-servicos__left p {
+    color: #666;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 37px;
+}
+
+/* nossos clientes */
+
+.nossos-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 76px;
+}
+
+.nossos-clientes h2 {
+    padding-top: 96px;
+}
+
+.nossos-clientes p {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 40px 60px 60px 60px;
+    max-width: 1200px;
+}
+
+.imagens {
+    display: flex;
+    gap: 26px;
+    padding-bottom: 48px;
+}
+
+.imagens .img1 p {
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    margin-top: -5px;
+    font-weight: 400;
+}
+
+/* frase-impacto */
+
+.frase-impacto {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase-impacto h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Kulim Park";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1300px;
+    margin: 253px 69px 32px 69px;
+}
+
+.frase-impacto p {
+    color: #949494;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 250px;
+}
+
+.trabalhar-juntos {
+    background-color: #000;
+    text-align: center;
+}
+
+.trabalhar-juntos__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.trabalhar-juntos__left img {
+    height: 600px;
+    margin: 50px;
+}
+
+.trabalhar-juntos__right {
+    display: flex;
+    width: 309px;
+    height: 674px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trabalhar-juntos__right h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+.trabalhar-juntos__right p {
+    color: #EAEAEA;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: start;
+}
+
+/* socials */
+
+.socials {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+/* copy */
+
+.copyright {
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: "Kulim Park";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 22px;
+}
