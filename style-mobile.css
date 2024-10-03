@@ -23,16 +23,8 @@
         width: 360px;
     }
 
-
-
-
-
     .imagens {
         flex-direction: column;
-    }
-
-    .frase-impacto h4 {
-        width: 407px;
     }
 
     /* agora sim */
@@ -185,7 +177,7 @@
     .frase-impacto h4 {
         font-size: 20px;
         margin: 50px 0px 0px 0px;
-        width: 410px;
+        width: 380px;
     }
 
     .frase-impacto p {
